@@ -1,0 +1,78 @@
+import 'package:flutter/material.dart';
+
+import '../models/product.dart';
+
+const products = [
+  Product(
+    id: 1,
+    name: 'Studio headphones',
+    category: 'Electronics',
+    price: 89,
+    icon: Icons.headphones_rounded,
+    color: Color(0xFFE7E3FA),
+    description: 'Comfortable over-ear headphones for your daily soundtrack. Includes soft ear cushions and a travel pouch.',
+  ),
+  Product(
+    id: 2,
+    name: 'Everyday backpack',
+    category: 'Accessories',
+    price: 49,
+    icon: Icons.backpack_rounded,
+    color: Color(0xFFF6E5D6),
+    description: 'A lightweight everyday backpack with room for your laptop, books, and everything in between.',
+  ),
+  Product(
+    id: 3,
+    name: 'Classic watch',
+    category: 'Accessories',
+    price: 65,
+    icon: Icons.watch_rounded,
+    color: Color(0xFFDDEDE6),
+    description: 'A timeless watch with a comfortable strap and a clean, easy-to-read face.',
+  ),
+  Product(
+    id: 4,
+    name: 'Cloud sneakers',
+    category: 'Fashion',
+    price: 79,
+    icon: Icons.ice_skating_rounded,
+    color: Color(0xFFDFEAF8),
+    description: 'Lightweight sneakers with a cushioned sole. Made for everyday walks and relaxed weekends.',
+  ),
+  Product(
+    id: 5,
+    name: 'Morning mug',
+    category: 'Home',
+    price: 18,
+    icon: Icons.coffee_rounded,
+    color: Color(0xFFF8E5DD),
+    description: 'A ceramic mug with a generous handle. The perfect companion for a slow morning coffee.',
+  ),
+  Product(
+    id: 6,
+    name: 'Desk light',
+    category: 'Home',
+    price: 35,
+    icon: Icons.light_rounded,
+    color: Color(0xFFF3EECF),
+    description: 'Bring a little warmth to your workspace with this compact, adjustable desk light.',
+  ),
+  Product(
+    id: 7,
+    name: 'Pocket speaker',
+    category: 'Electronics',
+    price: 39,
+    icon: Icons.speaker_rounded,
+    color: Color(0xFFE5DFF0),
+    description: 'Big sound in a small package. Take your favorite music from your desk to your next adventure.',
+  ),
+  Product(
+    id: 8,
+    name: 'Weekend tee',
+    category: 'Fashion',
+    price: 24,
+    icon: Icons.checkroom_rounded,
+    color: Color(0xFFDDECEB),
+    description: 'A soft cotton essential with a relaxed fit. Easy to wear, easy to love.',
+  ),
+];
